@@ -2,6 +2,8 @@
 
 var zaehler = 0;
 var startZeit;
+document.getElementById("tacho").innerHTML = "Das sind 0 Klicks pro Sekunde."
+document.getElementById("ZaehlerAnzeige").innerHTML = "Drück den Button!";
 
 function buttonGedrueckt() {
     if (startZeit) {
